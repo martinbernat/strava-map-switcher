@@ -10,21 +10,9 @@ Adds additional maps to Strava.com:
  - [Google Maps](https://maps.google.com/)
  - …
 
-## Donations (♥ = €)
-
-If you like this extension and wish to support its development and maintenance
-(Strava website changes and this extension must adapt to continue functioning),
-please consider [a small donation](https://www.paypal.me/lisknisi/10EUR) or
-[recurrent support through GitHub Sponsors](https://github.com/sponsors/liskin).
-
-By donating, you'll also support the development of my other projects. You
-might like these:
-
-* [strava-offline](https://github.com/liskin/strava-offline) – Keep a local mirror of Strava activities for further analysis/processing
-* [strava-gear](https://github.com/liskin/strava-gear) – Rule based tracker of gear and component wear primarily for Strava
-
 ## Installation
 
+ - TODO: AppStore
  - [Chrome Web Store](https://chrome.google.com/webstore/detail/strava-map-switcher/djcheclpmmkcdkjcenfamalobdenmici)
  - [Firefox Addons](https://addons.mozilla.org/cs/firefox/addon/strava-map-switcher/)
  - [Microsoft Edge Extensions](https://microsoftedge.microsoft.com/addons/detail/stravamapswitcher/dgepecolfdnodeepdmfdojcpmofplbjl)
