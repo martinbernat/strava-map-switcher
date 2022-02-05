@@ -1,9 +1,11 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
   "name": "strava-map-switcher",
   "version": "0.18",
   "manifest_version": 2,
   "description": "Map switcher for Strava website",
-  "homepage_url": "https://github.com/liskin/strava-map-switcher",
+  "homepage_url": "https://github.com/martinbernat/strava-map-switcher",
   "icons": {
     "128": "icons/icon128.png"
   },
@@ -22,12 +24,12 @@
   ],
   "web_accessible_resources": [
     "3rd/Leaflet.GoogleMutant.js",
-    "3rd/jquery-3.5.1.min.js",
+    "3rd/jquery-3.6.0.min.js",
     "3rd/leaflet-pegman.min.css",
     "3rd/leaflet-pegman.min.js",
     "arrive.min.js",
     "common.js",
-    "donation.js",
+    "author.js",
     "fix-mapbox.js",
     "fix.js",
     "layers.js",

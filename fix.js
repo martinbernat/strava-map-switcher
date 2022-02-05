@@ -92,8 +92,8 @@ document.arrive(".leaflet-container", {onceOnly: false, existing: true, fireOnAt
 		activityOpts.css({"max-height": "250px", "right": 0});
 		activityOpts.prepend(button("standard"));
 
-		if (MapSwitcherDonation)
-			activityOpts.append(jQuery('<li>').append(MapSwitcherDonation));
+		if (MapSwitcherAuthor)
+			activityOpts.append(jQuery('<li>').append(MapSwitcherAuthor));
 
 		Object.keys(AdditionalMapLayers).forEach(t => activityOpts.append(button(t)));
 		["googlesatellite", "googleroadmap", "googlehybrid", "googleterrain"].forEach(t => activityOpts.append(button(t)));
@@ -150,8 +150,8 @@ document.arrive(".leaflet-container", {onceOnly: false, existing: true, fireOnAt
 			addButton("Google Hybrid", "googlehybrid");
 			addButton("Google Terrain", "googleterrain");
 
-			if (MapSwitcherDonation)
-				clr.append(jQuery("<div class='button btn-xs'>").append(MapSwitcherDonation));
+			if (MapSwitcherAuthor)
+				clr.append(jQuery("<div class='button btn-xs'>").append(MapSwitcherAuthor));
 
 			var preferredMap = localStorage.stravaMapSwitcherPreferred;
 			if (preferredMap) {

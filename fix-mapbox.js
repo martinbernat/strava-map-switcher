@@ -120,8 +120,8 @@ document.arrive(".mapboxgl-map", {onceOnly: false, existing: true, fireOnAttribu
 			([type, l]) => select.append(jQuery(`<option value="${type}" ${type == preferredMap ? "selected" : ""}>`).text(l.name)));
 		sidebar.append(jQuery('<div>').append(select));
 
-		if (MapSwitcherDonation)
-			sidebar.append(jQuery('<div>').append(MapSwitcherDonation));
+		if (MapSwitcherAuthor)
+			sidebar.append(jQuery('<div>').append(MapSwitcherAuthor));
 
 		if (preferredMap)
 			setTimeout(() => setMapType(preferredMap));
@@ -190,9 +190,9 @@ document.arrive(".mapboxgl-map", {onceOnly: false, existing: true, fireOnAttribu
 			([type, l]) => select.append(jQuery(`<option value="${type}" ${type == preferredMap ? "selected" : ""}>`).text(l.name)));
 		nav.append(select);
 
-		if (MapSwitcherDonation) {
+		if (MapSwitcherAuthor) {
 			nav.append(jQuery('<span>&emsp;</span>'));
-			nav.append(MapSwitcherDonation);
+			nav.append(MapSwitcherAuthor);
 		}
 
 		jQuery('body').append(nav);

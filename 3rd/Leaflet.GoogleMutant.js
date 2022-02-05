@@ -12,6 +12,8 @@
 // GridLayer like https://avinmathew.com/leaflet-and-google-maps/ , but using MutationObserver instead of jQuery
 
 
+/* Further modifications in strava-map-switcher, see git history, e.g. at https://github.com/martinbernat/strava-map-switcher/ */
+
 // 🍂class GridLayer.GoogleMutant
 // 🍂extends GridLayer
 L.GridLayer.GoogleMutant = L.GridLayer.extend({
@@ -187,7 +189,7 @@ L.GridLayer.GoogleMutant = L.GridLayer.extend({
 			draggable: false,
 			disableDoubleClickZoom: true,
 			scrollwheel: false,
-			streetViewControl: false,
+            streetViewControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
 			styles: this.options.styles || {},
 			backgroundColor: 'transparent'
 		});

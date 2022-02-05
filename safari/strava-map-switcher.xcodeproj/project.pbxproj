@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4722AA1D27ADDB5A0047AB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1C27ADDB5A0047AB7E /* AppDelegate.swift */; };
+		4722AA1F27ADDB5A0047AB7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1E27ADDB5A0047AB7E /* SceneDelegate.swift */; };
+		4722AA2227ADDB5A0047AB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA2027ADDB5A0047AB7E /* LaunchScreen.storyboard */; };
+		4722AA2527ADDB5A0047AB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA2327ADDB5A0047AB7E /* Main.storyboard */; };
+		4722AA2E27ADDB5B0047AB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA2D27ADDB5B0047AB7E /* AppDelegate.swift */; };
+		4722AA3127ADDB5B0047AB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA2F27ADDB5B0047AB7E /* Main.storyboard */; };
+		4722AA3927ADDB5B0047AB7E /* strava-map-switcher Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4722AA3827ADDB5B0047AB7E /* strava-map-switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4722AA4327ADDB5B0047AB7E /* strava-map-switcher Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4722AA4227ADDB5B0047AB7E /* strava-map-switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4722AA4927ADDB5B0047AB7E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0C27ADDB5A0047AB7E /* Main.html */; };
+		4722AA4A27ADDB5B0047AB7E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0C27ADDB5A0047AB7E /* Main.html */; };
+		4722AA4B27ADDB5B0047AB7E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0E27ADDB5A0047AB7E /* Icon.png */; };
+		4722AA4C27ADDB5B0047AB7E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0E27ADDB5A0047AB7E /* Icon.png */; };
+		4722AA4D27ADDB5B0047AB7E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0F27ADDB5A0047AB7E /* Style.css */; };
+		4722AA4E27ADDB5B0047AB7E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA0F27ADDB5A0047AB7E /* Style.css */; };
+		4722AA4F27ADDB5B0047AB7E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA1027ADDB5A0047AB7E /* Script.js */; };
+		4722AA5027ADDB5B0047AB7E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA1027ADDB5A0047AB7E /* Script.js */; };
+		4722AA5127ADDB5B0047AB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1127ADDB5A0047AB7E /* ViewController.swift */; };
+		4722AA5227ADDB5B0047AB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1127ADDB5A0047AB7E /* ViewController.swift */; };
+		4722AA5327ADDB5B0047AB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA1227ADDB5A0047AB7E /* Assets.xcassets */; };
+		4722AA5427ADDB5B0047AB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA1227ADDB5A0047AB7E /* Assets.xcassets */; };
+		4722AA5527ADDB5B0047AB7E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1427ADDB5A0047AB7E /* SafariWebExtensionHandler.swift */; };
+		4722AA5627ADDB5B0047AB7E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AA1427ADDB5A0047AB7E /* SafariWebExtensionHandler.swift */; };
+		4722AA7827ADDB5B0047AB7E /* arrive.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6827ADDB5B0047AB7E /* arrive.min.js */; };
+		4722AA7927ADDB5B0047AB7E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6927ADDB5B0047AB7E /* LICENSE */; };
+		4722AA7A27ADDB5B0047AB7E /* 3rd in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6A27ADDB5B0047AB7E /* 3rd */; };
+		4722AA7B27ADDB5B0047AB7E /* fix-mapbox.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6B27ADDB5B0047AB7E /* fix-mapbox.js */; };
+		4722AA7C27ADDB5B0047AB7E /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6C27ADDB5B0047AB7E /* _metadata */; };
+		4722AA7E27ADDB5B0047AB7E /* layers.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6E27ADDB5B0047AB7E /* layers.js */; };
+		4722AA7F27ADDB5B0047AB7E /* load.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6F27ADDB5B0047AB7E /* load.js */; };
+		4722AA8027ADDB5B0047AB7E /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7027ADDB5B0047AB7E /* COPYING */; };
+		4722AA8127ADDB5B0047AB7E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7127ADDB5B0047AB7E /* icons */; };
+		4722AA8227ADDB5B0047AB7E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7227ADDB5B0047AB7E /* manifest.json */; };
+		4722AA8327ADDB5B0047AB7E /* common.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7327ADDB5B0047AB7E /* common.js */; };
+		4722AA8427ADDB5B0047AB7E /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7427ADDB5B0047AB7E /* inject.js */; };
+		4722AA8627ADDB5B0047AB7E /* fix.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7627ADDB5B0047AB7E /* fix.js */; };
+		4722AA8727ADDB5B0047AB7E /* author.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7727ADDB5B0047AB7E /* author.js */; };
+		4722AA8827ADDB5B0047AB7E /* arrive.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6827ADDB5B0047AB7E /* arrive.min.js */; };
+		4722AA8927ADDB5B0047AB7E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6927ADDB5B0047AB7E /* LICENSE */; };
+		4722AA8A27ADDB5B0047AB7E /* 3rd in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6A27ADDB5B0047AB7E /* 3rd */; };
+		4722AA8B27ADDB5B0047AB7E /* fix-mapbox.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6B27ADDB5B0047AB7E /* fix-mapbox.js */; };
+		4722AA8C27ADDB5B0047AB7E /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6C27ADDB5B0047AB7E /* _metadata */; };
+		4722AA8E27ADDB5B0047AB7E /* layers.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6E27ADDB5B0047AB7E /* layers.js */; };
+		4722AA8F27ADDB5B0047AB7E /* load.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA6F27ADDB5B0047AB7E /* load.js */; };
+		4722AA9027ADDB5B0047AB7E /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7027ADDB5B0047AB7E /* COPYING */; };
+		4722AA9127ADDB5B0047AB7E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7127ADDB5B0047AB7E /* icons */; };
+		4722AA9227ADDB5B0047AB7E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7227ADDB5B0047AB7E /* manifest.json */; };
+		4722AA9327ADDB5B0047AB7E /* common.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7327ADDB5B0047AB7E /* common.js */; };
+		4722AA9427ADDB5B0047AB7E /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7427ADDB5B0047AB7E /* inject.js */; };
+		4722AA9627ADDB5B0047AB7E /* fix.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7627ADDB5B0047AB7E /* fix.js */; };
+		4722AA9727ADDB5B0047AB7E /* author.js in Resources */ = {isa = PBXBuildFile; fileRef = 4722AA7727ADDB5B0047AB7E /* author.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4722AA3A27ADDB5B0047AB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4722AA0627ADDB590047AB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4722AA3727ADDB5B0047AB7E;
+			remoteInfo = "strava-map-switcher Extension (iOS)";
+		};
+		4722AA4427ADDB5B0047AB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4722AA0627ADDB590047AB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4722AA4127ADDB5B0047AB7E;
+			remoteInfo = "strava-map-switcher Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4722AA5C27ADDB5B0047AB7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4722AA3927ADDB5B0047AB7E /* strava-map-switcher Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA6327ADDB5B0047AB7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4722AA4327ADDB5B0047AB7E /* strava-map-switcher Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4722AA0D27ADDB5A0047AB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4722AA0E27ADDB5A0047AB7E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4722AA0F27ADDB5A0047AB7E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4722AA1027ADDB5A0047AB7E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4722AA1127ADDB5A0047AB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4722AA1227ADDB5A0047AB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4722AA1427ADDB5A0047AB7E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4722AA1927ADDB5A0047AB7E /* strava-map-switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strava-map-switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4722AA1C27ADDB5A0047AB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4722AA1E27ADDB5A0047AB7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4722AA2127ADDB5A0047AB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4722AA2427ADDB5A0047AB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4722AA2627ADDB5A0047AB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4722AA2B27ADDB5A0047AB7E /* strava-map-switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strava-map-switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4722AA2D27ADDB5B0047AB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4722AA3027ADDB5B0047AB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4722AA3227ADDB5B0047AB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4722AA3327ADDB5B0047AB7E /* strava-map-switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "strava-map-switcher.entitlements"; sourceTree = "<group>"; };
+		4722AA3827ADDB5B0047AB7E /* strava-map-switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "strava-map-switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4722AA3D27ADDB5B0047AB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4722AA4227ADDB5B0047AB7E /* strava-map-switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "strava-map-switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4722AA4727ADDB5B0047AB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4722AA4827ADDB5B0047AB7E /* strava-map-switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "strava-map-switcher.entitlements"; sourceTree = "<group>"; };
+		4722AA6827ADDB5B0047AB7E /* arrive.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = arrive.min.js; path = ../../arrive.min.js; sourceTree = "<group>"; };
+		4722AA6927ADDB5B0047AB7E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		4722AA6A27ADDB5B0047AB7E /* 3rd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 3rd; path = ../../3rd; sourceTree = "<group>"; };
+		4722AA6B27ADDB5B0047AB7E /* fix-mapbox.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "fix-mapbox.js"; path = "../../fix-mapbox.js"; sourceTree = "<group>"; };
+		4722AA6C27ADDB5B0047AB7E /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../_metadata; sourceTree = "<group>"; };
+		4722AA6E27ADDB5B0047AB7E /* layers.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = layers.js; path = ../../layers.js; sourceTree = "<group>"; };
+		4722AA6F27ADDB5B0047AB7E /* load.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = load.js; path = ../../load.js; sourceTree = "<group>"; };
+		4722AA7027ADDB5B0047AB7E /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; name = COPYING; path = ../../COPYING; sourceTree = "<group>"; };
+		4722AA7127ADDB5B0047AB7E /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		4722AA7227ADDB5B0047AB7E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		4722AA7327ADDB5B0047AB7E /* common.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = common.js; path = ../../common.js; sourceTree = "<group>"; };
+		4722AA7427ADDB5B0047AB7E /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.js; path = ../../inject.js; sourceTree = "<group>"; };
+		4722AA7627ADDB5B0047AB7E /* fix.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fix.js; path = ../../fix.js; sourceTree = "<group>"; };
+		4722AA7727ADDB5B0047AB7E /* author.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = author.js; path = ../../author.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4722AA1627ADDB5A0047AB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA2827ADDB5A0047AB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA3527ADDB5B0047AB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA3F27ADDB5B0047AB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4722AA0527ADDB590047AB7E = {
+			isa = PBXGroup;
+			children = (
+				4722AA0A27ADDB5A0047AB7E /* Shared (App) */,
+				4722AA1327ADDB5A0047AB7E /* Shared (Extension) */,
+				4722AA1B27ADDB5A0047AB7E /* iOS (App) */,
+				4722AA2C27ADDB5B0047AB7E /* macOS (App) */,
+				4722AA3C27ADDB5B0047AB7E /* iOS (Extension) */,
+				4722AA4627ADDB5B0047AB7E /* macOS (Extension) */,
+				4722AA1A27ADDB5A0047AB7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4722AA0A27ADDB5A0047AB7E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA1127ADDB5A0047AB7E /* ViewController.swift */,
+				4722AA1227ADDB5A0047AB7E /* Assets.xcassets */,
+				4722AA0B27ADDB5A0047AB7E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		4722AA0B27ADDB5A0047AB7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA0C27ADDB5A0047AB7E /* Main.html */,
+				4722AA0E27ADDB5A0047AB7E /* Icon.png */,
+				4722AA0F27ADDB5A0047AB7E /* Style.css */,
+				4722AA1027ADDB5A0047AB7E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4722AA1327ADDB5A0047AB7E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA6727ADDB5B0047AB7E /* Resources */,
+				4722AA1427ADDB5A0047AB7E /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		4722AA1A27ADDB5A0047AB7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA1927ADDB5A0047AB7E /* strava-map-switcher.app */,
+				4722AA2B27ADDB5A0047AB7E /* strava-map-switcher.app */,
+				4722AA3827ADDB5B0047AB7E /* strava-map-switcher Extension.appex */,
+				4722AA4227ADDB5B0047AB7E /* strava-map-switcher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4722AA1B27ADDB5A0047AB7E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA1C27ADDB5A0047AB7E /* AppDelegate.swift */,
+				4722AA1E27ADDB5A0047AB7E /* SceneDelegate.swift */,
+				4722AA2027ADDB5A0047AB7E /* LaunchScreen.storyboard */,
+				4722AA2327ADDB5A0047AB7E /* Main.storyboard */,
+				4722AA2627ADDB5A0047AB7E /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		4722AA2C27ADDB5B0047AB7E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA2D27ADDB5B0047AB7E /* AppDelegate.swift */,
+				4722AA2F27ADDB5B0047AB7E /* Main.storyboard */,
+				4722AA3227ADDB5B0047AB7E /* Info.plist */,
+				4722AA3327ADDB5B0047AB7E /* strava-map-switcher.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		4722AA3C27ADDB5B0047AB7E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA3D27ADDB5B0047AB7E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4722AA4627ADDB5B0047AB7E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA4727ADDB5B0047AB7E /* Info.plist */,
+				4722AA4827ADDB5B0047AB7E /* strava-map-switcher.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4722AA6727ADDB5B0047AB7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4722AA6827ADDB5B0047AB7E /* arrive.min.js */,
+				4722AA6927ADDB5B0047AB7E /* LICENSE */,
+				4722AA6A27ADDB5B0047AB7E /* 3rd */,
+				4722AA6B27ADDB5B0047AB7E /* fix-mapbox.js */,
+				4722AA6C27ADDB5B0047AB7E /* _metadata */,
+				4722AA6E27ADDB5B0047AB7E /* layers.js */,
+				4722AA6F27ADDB5B0047AB7E /* load.js */,
+				4722AA7027ADDB5B0047AB7E /* COPYING */,
+				4722AA7127ADDB5B0047AB7E /* icons */,
+				4722AA7227ADDB5B0047AB7E /* manifest.json */,
+				4722AA7327ADDB5B0047AB7E /* common.js */,
+				4722AA7427ADDB5B0047AB7E /* inject.js */,
+				4722AA7627ADDB5B0047AB7E /* fix.js */,
+				4722AA7727ADDB5B0047AB7E /* author.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4722AA1827ADDB5A0047AB7E /* strava-map-switcher (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4722AA5D27ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher (iOS)" */;
+			buildPhases = (
+				4722AA1527ADDB5A0047AB7E /* Sources */,
+				4722AA1627ADDB5A0047AB7E /* Frameworks */,
+				4722AA1727ADDB5A0047AB7E /* Resources */,
+				4722AA5C27ADDB5B0047AB7E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4722AA3B27ADDB5B0047AB7E /* PBXTargetDependency */,
+			);
+			name = "strava-map-switcher (iOS)";
+			productName = "strava-map-switcher (iOS)";
+			productReference = 4722AA1927ADDB5A0047AB7E /* strava-map-switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4722AA2A27ADDB5A0047AB7E /* strava-map-switcher (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4722AA6427ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher (macOS)" */;
+			buildPhases = (
+				4722AA2727ADDB5A0047AB7E /* Sources */,
+				4722AA2827ADDB5A0047AB7E /* Frameworks */,
+				4722AA2927ADDB5A0047AB7E /* Resources */,
+				4722AA6327ADDB5B0047AB7E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4722AA4527ADDB5B0047AB7E /* PBXTargetDependency */,
+			);
+			name = "strava-map-switcher (macOS)";
+			productName = "strava-map-switcher (macOS)";
+			productReference = 4722AA2B27ADDB5A0047AB7E /* strava-map-switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4722AA3727ADDB5B0047AB7E /* strava-map-switcher Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4722AA5927ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher Extension (iOS)" */;
+			buildPhases = (
+				4722AA3427ADDB5B0047AB7E /* Sources */,
+				4722AA3527ADDB5B0047AB7E /* Frameworks */,
+				4722AA3627ADDB5B0047AB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strava-map-switcher Extension (iOS)";
+			productName = "strava-map-switcher Extension (iOS)";
+			productReference = 4722AA3827ADDB5B0047AB7E /* strava-map-switcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4722AA4127ADDB5B0047AB7E /* strava-map-switcher Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4722AA6027ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher Extension (macOS)" */;
+			buildPhases = (
+				4722AA3E27ADDB5B0047AB7E /* Sources */,
+				4722AA3F27ADDB5B0047AB7E /* Frameworks */,
+				4722AA4027ADDB5B0047AB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strava-map-switcher Extension (macOS)";
+			productName = "strava-map-switcher Extension (macOS)";
+			productReference = 4722AA4227ADDB5B0047AB7E /* strava-map-switcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4722AA0627ADDB590047AB7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4722AA1827ADDB5A0047AB7E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4722AA2A27ADDB5A0047AB7E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4722AA3727ADDB5B0047AB7E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4722AA4127ADDB5B0047AB7E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4722AA0927ADDB590047AB7E /* Build configuration list for PBXProject "strava-map-switcher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4722AA0527ADDB590047AB7E;
+			productRefGroup = 4722AA1A27ADDB5A0047AB7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4722AA1827ADDB5A0047AB7E /* strava-map-switcher (iOS) */,
+				4722AA2A27ADDB5A0047AB7E /* strava-map-switcher (macOS) */,
+				4722AA3727ADDB5B0047AB7E /* strava-map-switcher Extension (iOS) */,
+				4722AA4127ADDB5B0047AB7E /* strava-map-switcher Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4722AA1727ADDB5A0047AB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA4B27ADDB5B0047AB7E /* Icon.png in Resources */,
+				4722AA2227ADDB5A0047AB7E /* LaunchScreen.storyboard in Resources */,
+				4722AA4927ADDB5B0047AB7E /* Main.html in Resources */,
+				4722AA4F27ADDB5B0047AB7E /* Script.js in Resources */,
+				4722AA5327ADDB5B0047AB7E /* Assets.xcassets in Resources */,
+				4722AA2527ADDB5A0047AB7E /* Main.storyboard in Resources */,
+				4722AA4D27ADDB5B0047AB7E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA2927ADDB5A0047AB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA4C27ADDB5B0047AB7E /* Icon.png in Resources */,
+				4722AA4E27ADDB5B0047AB7E /* Style.css in Resources */,
+				4722AA3127ADDB5B0047AB7E /* Main.storyboard in Resources */,
+				4722AA5027ADDB5B0047AB7E /* Script.js in Resources */,
+				4722AA5427ADDB5B0047AB7E /* Assets.xcassets in Resources */,
+				4722AA4A27ADDB5B0047AB7E /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA3627ADDB5B0047AB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA9027ADDB5B0047AB7E /* COPYING in Resources */,
+				4722AA9427ADDB5B0047AB7E /* inject.js in Resources */,
+				4722AA9727ADDB5B0047AB7E /* author.js in Resources */,
+				4722AA8A27ADDB5B0047AB7E /* 3rd in Resources */,
+				4722AA9127ADDB5B0047AB7E /* icons in Resources */,
+				4722AA9627ADDB5B0047AB7E /* fix.js in Resources */,
+				4722AA8F27ADDB5B0047AB7E /* load.js in Resources */,
+				4722AA9227ADDB5B0047AB7E /* manifest.json in Resources */,
+				4722AA8E27ADDB5B0047AB7E /* layers.js in Resources */,
+				4722AA8927ADDB5B0047AB7E /* LICENSE in Resources */,
+				4722AA8827ADDB5B0047AB7E /* arrive.min.js in Resources */,
+				4722AA9327ADDB5B0047AB7E /* common.js in Resources */,
+				4722AA8C27ADDB5B0047AB7E /* _metadata in Resources */,
+				4722AA8B27ADDB5B0047AB7E /* fix-mapbox.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA4027ADDB5B0047AB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA8027ADDB5B0047AB7E /* COPYING in Resources */,
+				4722AA8427ADDB5B0047AB7E /* inject.js in Resources */,
+				4722AA8727ADDB5B0047AB7E /* author.js in Resources */,
+				4722AA7A27ADDB5B0047AB7E /* 3rd in Resources */,
+				4722AA8127ADDB5B0047AB7E /* icons in Resources */,
+				4722AA8627ADDB5B0047AB7E /* fix.js in Resources */,
+				4722AA7F27ADDB5B0047AB7E /* load.js in Resources */,
+				4722AA8227ADDB5B0047AB7E /* manifest.json in Resources */,
+				4722AA7E27ADDB5B0047AB7E /* layers.js in Resources */,
+				4722AA7927ADDB5B0047AB7E /* LICENSE in Resources */,
+				4722AA7827ADDB5B0047AB7E /* arrive.min.js in Resources */,
+				4722AA8327ADDB5B0047AB7E /* common.js in Resources */,
+				4722AA7C27ADDB5B0047AB7E /* _metadata in Resources */,
+				4722AA7B27ADDB5B0047AB7E /* fix-mapbox.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4722AA1527ADDB5A0047AB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA5127ADDB5B0047AB7E /* ViewController.swift in Sources */,
+				4722AA1D27ADDB5A0047AB7E /* AppDelegate.swift in Sources */,
+				4722AA1F27ADDB5A0047AB7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA2727ADDB5A0047AB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA5227ADDB5B0047AB7E /* ViewController.swift in Sources */,
+				4722AA2E27ADDB5B0047AB7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA3427ADDB5B0047AB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA5527ADDB5B0047AB7E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4722AA3E27ADDB5B0047AB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4722AA5627ADDB5B0047AB7E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4722AA3B27ADDB5B0047AB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4722AA3727ADDB5B0047AB7E /* strava-map-switcher Extension (iOS) */;
+			targetProxy = 4722AA3A27ADDB5B0047AB7E /* PBXContainerItemProxy */;
+		};
+		4722AA4527ADDB5B0047AB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4722AA4127ADDB5B0047AB7E /* strava-map-switcher Extension (macOS) */;
+			targetProxy = 4722AA4427ADDB5B0047AB7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4722AA0C27ADDB5A0047AB7E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4722AA0D27ADDB5A0047AB7E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4722AA2027ADDB5A0047AB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4722AA2127ADDB5A0047AB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4722AA2327ADDB5A0047AB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4722AA2427ADDB5A0047AB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4722AA2F27ADDB5B0047AB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4722AA3027ADDB5B0047AB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4722AA5727ADDB5B0047AB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4722AA5827ADDB5B0047AB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4722AA5A27ADDB5B0047AB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher.Extension";
+				PRODUCT_NAME = "strava-map-switcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4722AA5B27ADDB5B0047AB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher.Extension";
+				PRODUCT_NAME = "strava-map-switcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4722AA5E27ADDB5B0047AB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher";
+				PRODUCT_NAME = "strava-map-switcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4722AA5F27ADDB5B0047AB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher";
+				PRODUCT_NAME = "strava-map-switcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4722AA6127ADDB5B0047AB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/strava-map-switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher.Extension";
+				PRODUCT_NAME = "strava-map-switcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4722AA6227ADDB5B0047AB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/strava-map-switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher.Extension";
+				PRODUCT_NAME = "strava-map-switcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4722AA6527ADDB5B0047AB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/strava-map-switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher";
+				PRODUCT_NAME = "strava-map-switcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4722AA6627ADDB5B0047AB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/strava-map-switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "strava-map-switcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.strava-map-switcher";
+				PRODUCT_NAME = "strava-map-switcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4722AA0927ADDB590047AB7E /* Build configuration list for PBXProject "strava-map-switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AA5727ADDB5B0047AB7E /* Debug */,
+				4722AA5827ADDB5B0047AB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4722AA5927ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AA5A27ADDB5B0047AB7E /* Debug */,
+				4722AA5B27ADDB5B0047AB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4722AA5D27ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AA5E27ADDB5B0047AB7E /* Debug */,
+				4722AA5F27ADDB5B0047AB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4722AA6027ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AA6127ADDB5B0047AB7E /* Debug */,
+				4722AA6227ADDB5B0047AB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4722AA6427ADDB5B0047AB7E /* Build configuration list for PBXNativeTarget "strava-map-switcher (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AA6527ADDB5B0047AB7E /* Debug */,
+				4722AA6627ADDB5B0047AB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4722AA0627ADDB590047AB7E /* Project object */;
+}
